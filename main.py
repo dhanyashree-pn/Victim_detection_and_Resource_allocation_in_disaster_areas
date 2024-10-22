@@ -33,6 +33,7 @@ elif selection == 'Detect Victims':
     st.subheader("Detect Victims")
     st.write(
         "Our victim detection model is at the forefront of disaster response technology, leveraging cutting-edge advancements in thermal imaging and machine learning to identify individuals in disaster-stricken areas.")
+    st.write("For Sample images: Download the folder from here: (https://github.com/dhanyashree-pn/Victim_detection_and_resource_allocation_in_disaster_areas/tree/main/GOOD_TO_GO)")
     img_data = st.file_uploader(label="load the image to detect victims", type=['jpeg', 'jpg', 'png'])
 
     if img_data is not None:
@@ -64,6 +65,7 @@ elif selection == "Injury Classification":
     st.write(" By analyzing thermal images, we categorize individuals as severely injured and not severely injured. ")
     st.write(
         "This classification enables search and rescue teams and medical professionals to prioritize resources and interventions effectively.")
+    st.write("For Sample images: Download the folder from here: (https://github.com/dhanyashree-pn/Victim_detection_and_resource_allocation_in_disaster_areas/tree/main/Injury_classification)")
     img_data = st.file_uploader(label="load the image to detect severity of injuries", type=['jpeg', 'jpg', 'png'])
     lst=['Injured1.jpg','Injured2.png','Injured3.png']
 
@@ -97,6 +99,8 @@ elif selection == "Further Scope & Credits":
     st.write(
         "the project aims to use smart technology to save lives during disasters by finding and helping victims faster while making sure resources are used wisely."
         "It's a step towards making disaster response more effective, using the power of technology for the benefit of communities in times of need.")
+    st.write(
+        "Checkout our paper: (https://ijirt.org/publishedpaper/IJIRT164591_PAPER.pdf)")
     st.subheader("Datasets")
     st.markdown(
         "- **FLIR Thermal Images Dataset** (https://www.kaggle.com/datasets/deepnewbie/flir-thermal-images-dataset)")

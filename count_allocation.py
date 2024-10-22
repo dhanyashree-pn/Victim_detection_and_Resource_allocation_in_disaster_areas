@@ -36,7 +36,7 @@ def count_people(image_path):
     image=cv2.imread(image_path)
     result = model.predict(image_path, confidence=40, overlap=30).json()
     labels = [item["class"] for item in result["predictions"]]
-    detections = sv.Detections.from_roboflow(result)
+    detections = sv.Detections.from_inference(result)
     label_annotator = sv.LabelAnnotator()
     bounding_box_annotator = sv.BoxAnnotator()
     annotated_image = bounding_box_annotator.annotate(
