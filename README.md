@@ -1,4 +1,4 @@
-# Victim_detection_and_resource_allocation_in_disaster_areas
+# RescuEye
 
 In the wake of disasters and emergencies, the ability to efficiently manage and control crowds is a vital component of effective disaster response.
 Crowd management in disaster areas is a multidisciplinary approach that involves planning, coordination, and execution to prevent chaos and minimize the risks associated with large gatherings of individuals during such events. 
