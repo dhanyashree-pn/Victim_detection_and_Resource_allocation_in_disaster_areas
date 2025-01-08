@@ -24,7 +24,19 @@ The system accurately detects victims using thermal signatures, even in conditio
 
 
 #### Output Image
-![DetectedVictims](https://github.com/user-attachments/assets/b4b53aee-8a61-4782-9f3b-1e643bf411f3)
+<div style="display: flex; justify-content: space-between;">
+    <div style="flex: 1; padding: 10px;">
+        <h4>Input Image</h4>
+        <img src=![DetectedVictims](https://github.com/user-attachments/assets/b4b53aee-8a61-4782-9f3b-1e643bf411f3) alt="Input Thermal Image" width="400"/>
+        <p><em>Thermal image input showing disaster scene</em></p>
+    </div>
+    <div style="flex: 1; padding: 10px;">
+        <h4>Output Image</h4>
+        <img src="path_to_output_image.jpg" alt="Detected Victims" width="400"/>
+        <p><em>Annotated output showing detected victims</em></p>
+    </div>  
+</div>
+
 ![Heatmap of Detected Victims](https://github.com/user-attachments/assets/66f56fbe-6d6f-4a89-9000-e96b43ceee98)
 
 
