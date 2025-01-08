@@ -29,8 +29,8 @@ Based on the number of detected victims, the system calculates necessary relief 
 
 | Input Dashboard | Output Calculation |
 |-----------------|-------------------|
-| Count of the no of detected victims | ![Resource allocation-NonFoodReliefItems](https://github.com/user-attachments/assets/9ffc6e27-0446-4a1f-8b39-72e587bdfe66)| ![FoodRelief Items](https://github.com/user-attachments/assets/df5b3b8e-953f-4fc9-b098-2028577f72a6) |
-| Input| *Resource Allocation(Non-Food Relief Items)* | *Resource Allocation(Food Relief Items)* |
+| *Count of the no of detected victims* | ![Resource allocation-NonFoodReliefItems](https://github.com/user-attachments/assets/9ffc6e27-0446-4a1f-8b39-72e587bdfe66)| ![FoodRelief Items](https://github.com/user-attachments/assets/df5b3b8e-953f-4fc9-b098-2028577f72a6) |
+| *Input*| *Resource Allocation(Non-Food Relief Items)* | *Resource Allocation(Food Relief Items)* |
 
 ### 3. Injury Classification
 Classifies victims based on their thermal signatures to prioritize medical attention.
