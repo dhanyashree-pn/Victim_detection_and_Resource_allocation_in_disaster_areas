@@ -27,8 +27,8 @@ The system accurately detects victims using thermal signatures, even in conditio
 ### 2. Resource Allocation
 Based on the number of detected victims, the system calculates necessary relief materials.
 
-| Input Dashboard | Output Calculation |
-|-----------------|-------------------|
+| Input Dashboard | Output (Non-Food Relief Items) | Output (Food Relief Items) |
+|-----------------|-------------------|-------------------|
 | *Count of the no of detected victims* | ![Resource allocation-NonFoodReliefItems](https://github.com/user-attachments/assets/9ffc6e27-0446-4a1f-8b39-72e587bdfe66)| ![FoodRelief Items](https://github.com/user-attachments/assets/df5b3b8e-953f-4fc9-b098-2028577f72a6) |
 | *Input*| *Resource Allocation(Non-Food Relief Items)* | *Resource Allocation(Food Relief Items)* |
 
