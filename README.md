@@ -12,7 +12,7 @@ RescuEye is an innovative disaster response system that leverages thermal imagin
 - **NumPy**: For numerical computations
 - **Pandas**: For data manipulation and analysis
 - **PIL (Python Imaging Library)**: For image handling
-- **Matplotlib**: For visualization and plotting
+- **Matplotlib**: For visualization and plotting.
 
 ## Features and Results
 
